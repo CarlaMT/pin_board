@@ -45,6 +45,9 @@ gem 'simple_form', '~> 3.4'
 gem 'devise', '~> 4.2'
 #Easy upload management for ActiveRecord
 gem 'paperclip', '~> 5.1'
+#Styling 
+gem 'masonry-rails', '~> 0.2.4'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
