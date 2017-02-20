@@ -37,16 +37,16 @@ gem 'simple_form', '~> 3.4'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
 #Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 4.2'
 #Easy upload management for ActiveRecord
 gem 'paperclip', '~> 5.1'
 #Styling 
 gem 'masonry-rails', '~> 0.2.4'
+#Rails gem to allowing records to be votable
+gem 'acts_as_votable', '~> 0.10.0'
 #jQuery plugin for drop-in fix binded events problem caused by Turbolinks
 gem 'jquery-turbolinks', '~> 2.1'
 
