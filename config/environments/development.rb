@@ -51,6 +51,8 @@ Rails.application.configure do
   #Needed for Devise
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
+  #Needed for Devise - Sign Out
+  config.sign_out_via = :get
 
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
