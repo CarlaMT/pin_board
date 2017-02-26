@@ -42,8 +42,10 @@ gem 'simple_form', '~> 3.4'
 #Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 4.2'
 #Easy upload management for ActiveRecord
-gem 'paperclip', '~> 5.1'
-#Styling 
+gem 'paperclip', '~> 5.1' 
+#Provides both resource oriented interfaces and API clients for AWS services.
+gem 'aws-sdk', '~> 2.7', '>= 2.7.15'
+#Desiging layouts
 gem 'masonry-rails', '~> 0.2.4'
 #Rails gem to allowing records to be votable
 gem 'acts_as_votable', '~> 0.10.0'
